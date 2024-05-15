@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(image/bookpage.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    padding: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15;
+}
+.semua{
+    display: flex;
+    height: 100%;
+}
+.header h1{
+    display: grid;
+    justify-content: space-between;
+    padding: 0px 0px 1px 240px;
+    width: 600px;
+    height: 100px;
+    font-size: 65px;
+}
+.kiri{
+    width: 50%;
+    height: 72%;
+}
+.step1{
+    padding: 100px 0px 30px 240px;
+    width: 200px;
+    height: 100px;
+}
+.step1 h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.step1 h3{
+    font-weight: lighter;
+}
+.step1 .input-box input{
+    width: 400px;
+    height: 50px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.step2{
+    padding: 100px 0px 30px 240px;
+    width: 200px;
+    height: 100px;
+}
+.step2 h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.step2 h3{
+    font-weight: lighter;
+    width: 120%;
+}
+.step2 .input-box input{
+    width: 200px;
+    height: 50px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.kanan{
+    width: 50%;
+    height: 72%;
+}
+.step3{
+    padding: 0px 0px 30px 0px;
+    width: 200px;
+    height: 100px;
+}
+.step3 h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.step3 h3{
+    font-weight: lighter;
+}
+.step3 .input-box input{
+    
+}
+.step4{
+    padding: 100px 0px 30px 0px;
+    width: 200px;
+    height: 100px;
+}
+.step4 h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.step4 h3{
+    font-weight: lighter;
+}
+.step4 .input-box input{
+    width: 200px;
+    height: 50px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+button {
+    width: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 12px ;
+    background:#637CB5;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 40px;
+    cursor: pointer;
+    margin: 100px 0px 0px 450px;
+}
